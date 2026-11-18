@@ -11,7 +11,7 @@ else
     escolhido = 'Escolhe a segunda carta.'; par = 'Encontraste um par!';
     falha = 'Cartas diferentes.'; fim = 'Encontraste todos os pares!';
     formato = 'Tentativas: %d    Pares: %d / 8';
-end  
+end
 jogo = novoJogo();
 janela = uifigure('Name',titulo,'Position',[100 100 500 530]);
 grelha = uigridlayout(janela,[6 4]);
