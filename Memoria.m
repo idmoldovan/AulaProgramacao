@@ -7,7 +7,7 @@ if strcmpi(idioma,'en')
     escolhido = 'Choose a second card.'; par = 'Match!'; falha = 'Different cards.';
     fim = 'All pairs found!'; formato = 'Attempts: %d    Pairs: %d / 8';
 else
-    titulo = 'Jogo da memoria'; novo = 'Novo jogo'; pronta = 'Escolhe duas cartas.';
+    titulo = 'Jogo da memoria'; novo = 'Novo jogo'; pronta = 'Encontra os oito pares. Escolhe duas cartas.';
     escolhido = 'Escolhe a segunda carta.'; par = 'Encontraste um par!';
     falha = 'Cartas diferentes.'; fim = 'Encontraste todos os pares!';
     formato = 'Tentativas: %d    Pares: %d / 8';
