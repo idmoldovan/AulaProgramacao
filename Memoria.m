@@ -31,6 +31,7 @@ for linha = 1:4
         cartas(linha,coluna) = uibutton(grelha,'Text','?', ...
             'FontSize',24,'ButtonPushedFcn', ...
             @(origem,evento) escolher(linha,coluna)); %#ok<NASGU,INUSD>
+        cartas(linha,coluna).BackgroundColor = [0.55 0.83 0.98]; % azul / blue
         cartas(linha,coluna).Layout.Row = linha + 1;
         cartas(linha,coluna).Layout.Column = coluna;
     end
